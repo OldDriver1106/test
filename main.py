@@ -17,8 +17,6 @@ class UI_main(ttk.Frame):
     height = 400   #高
     color_transform = img_rec.color_tr
 
-    def __init__(self, win):
-        ttk.Frame.__init__(self, win)
 
         self.tkImage2 = ImageTk.PhotoImage(image=pil_image_resized)
         win.title("车牌识别系统")
